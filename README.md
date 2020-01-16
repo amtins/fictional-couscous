@@ -33,7 +33,7 @@
 
   ## How to debug
   ```bash
-  npm run release -- --dry-run --skip-git-push-check --skip-npm-push-check
+  npm run release -- --dry-run --skip-git-push-check --skip-npm-push-check --analyze-commits
   ```
 
 ---
