@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/amtins/fictional-couscous.git"
   },
-  "author": "",
+  "author": "amtins <amtins@github.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/amtins/fictional-couscous/issues"

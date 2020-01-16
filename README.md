@@ -31,6 +31,11 @@
   }
   ```
 
+  ## How to debug
+  ```bash
+  npm run release -- --dry-run --skip-git-push-check --skip-npm-push-check
+  ```
+
 ---
 
 __Documentation__:
