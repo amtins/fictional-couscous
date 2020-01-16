@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "semantic-release"
+    "release": "standard-version"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -24,7 +24,8 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "husky": "^4.0.10",
-    "semantic-release": "^16.0.2"
+    "semantic-release": "^16.0.2",
+    "standard-version": "^7.0.1"
   },
   "husky": {
     "hooks": {
