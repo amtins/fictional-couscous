@@ -1,0 +1,32 @@
+{
+  "name": "fictional-couscous",
+  "version": "0.0.0",
+  "description": "Conventional commits coupled with semantic-release and commitlint",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amtins/fictional-couscous.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amtins/fictional-couscous/issues"
+  },
+  "homepage": "https://github.com/amtins/fictional-couscous#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.0.10",
+    "semantic-release": "^16.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "branches": ["master"]
+}
