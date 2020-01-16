@@ -41,3 +41,6 @@ __Documentation__:
 - [Commitlint GitHub repo](https://github.com/conventional-changelog/commitlint)
 - [Husky GitHub repo](https://github.com/typicode/husky)
 - [commitlint article](https://www.vojtechruzicka.com/commitlint/)
+- [Semantic-release git](https://github.com/semantic-release/git)
+- [Semantic-release npm](https://github.com/semantic-release/npm)
+- [Semantic-release changelog](https://github.com/semantic-release/changelog)
