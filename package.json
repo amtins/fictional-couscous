@@ -5,7 +5,7 @@
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version"
+    "release": "standard-release"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -46,6 +46,8 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
+    "@semantic-release/npm",
+    [
       "@semantic-release/git",
       {
         "assets": [
@@ -55,5 +57,5 @@
         ],
         "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
-  ]
-}
+    ]
+  }
