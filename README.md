@@ -34,9 +34,10 @@
 ---
 
 __Documentation__:
+
 - [Conventional commits specification](https://www.conventionalcommits.org/en/)
 - [Semantic-release installation](https://semantic-release.gitbook.io/semantic-release/usage/installation)
 - [Semantic-release workflow configuration](https://semantic-release.gitbook.io/semantic-release/usage/workflow-configuration)
 - [Commitlint GitHub repo](https://github.com/conventional-changelog/commitlint)
 - [Husky GitHub repo](https://github.com/typicode/husky)
-[commitlint article](https://www.vojtechruzicka.com/commitlint/)
+- [commitlint article](https://www.vojtechruzicka.com/commitlint/)
