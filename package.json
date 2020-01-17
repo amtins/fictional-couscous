@@ -11,6 +11,7 @@
     "registry": "https://npm.pkg.github.com/@amtins",
     "access": "public"
   },
+  "access": "public",
   "repository": {
     "type": "git",
     "url": "git://github.com/amtins/fictional-couscous.git"
