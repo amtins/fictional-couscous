@@ -1,18 +1,18 @@
 {
-  "name": "@amtins/fictional-couscous",
+  "name": "fictional-couscous",
   "version": "0.0.1",
   "description": "Conventional commits coupled with semantic-release and commitlint",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version"
+    "release": "semantic-release --debug"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@amtins"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amtins/fictional-couscous.git"
+    "url": "git://github.com/amtins/fictional-couscous.git"
   },
   "author": "amtins <amtins@github.com>",
   "license": "ISC",
@@ -23,6 +23,8 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/commit-analyzer": "^7.0.0",
     "@semantic-release/git": "^8.0.0",
     "@semantic-release/npm": "^6.0.0",
     "@semantic-release/release-notes-generator": "^7.3.5",
@@ -46,6 +48,8 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
     [
       "@semantic-release/git",
       {
