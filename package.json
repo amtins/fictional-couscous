@@ -7,9 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "semantic-release"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@amtins"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/amtins/fictional-couscous.git"
