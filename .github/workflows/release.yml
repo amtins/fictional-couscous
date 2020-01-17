@@ -19,12 +19,4 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run release
-      - name: Git branches
-        run: git pull origin/develop && git branch -l
-      #- name: Git merge master into develop
-      #  run: |
-      #    git checkout develop
-      #    git merge master
