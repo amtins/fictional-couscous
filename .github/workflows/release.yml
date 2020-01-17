@@ -23,3 +23,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run release
+      - name: Git merge master into develop
+        run: |
+          git checkout develop
+          git merge master
