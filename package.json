@@ -11,7 +11,6 @@
     "registry": "https://npm.pkg.github.com/@amtins",
     "access": "public"
   },
-  "access": "public",
   "repository": {
     "type": "git",
     "url": "git://github.com/amtins/fictional-couscous.git"
@@ -29,7 +28,6 @@
     "@semantic-release/commit-analyzer": "^7.0.0",
     "@semantic-release/git": "^8.0.0",
     "@semantic-release/github": "^6.0.1",
-    "@semantic-release/npm": "^6.0.0",
     "@semantic-release/release-notes-generator": "^7.3.5",
     "husky": "^4.0.10",
     "semantic-release": "^16.0.2",
