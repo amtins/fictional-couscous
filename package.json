@@ -1,5 +1,5 @@
 {
-  "name": "@amtins/fictional-couscous",
+  "name": "fictional-couscous",
   "version": "0.0.1",
   "description": "Conventional commits coupled with semantic-release and commitlint",
   "main": "src/app.js",
@@ -8,7 +8,7 @@
     "release": "semantic-release"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/amtins"
   },
   "repository": {
     "type": "git",
