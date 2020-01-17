@@ -8,11 +8,11 @@
     "release": "semantic-release"
   },
   "publishConfig": {
-    "@amtins:registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amtins/fictional-couscous.git"
+    "url": "git://github.com/amtins/fictional-couscous.git"
   },
   "author": "amtins <amtins@github.com>",
   "license": "ISC",
