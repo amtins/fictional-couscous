@@ -23,7 +23,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run release
       - name: Git branches
-        run: git branch -l
+        run: git pull && git branch -l
       #- name: Git merge master into develop
       #  run: |
       #    git checkout develop
