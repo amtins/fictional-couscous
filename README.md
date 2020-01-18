@@ -49,3 +49,4 @@ __Documentation__:
 - [Semantic-release git](https://github.com/semantic-release/git)
 - [Semantic-release npm](https://github.com/semantic-release/npm)
 - [Semantic-release changelog](https://github.com/semantic-release/changelog)
+- [GitHub package registry](https://medium.com/@AndrewPierno/github-package-registry-first-look-83f55a234e39)
