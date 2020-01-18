@@ -1,11 +1,11 @@
 {
   "name": "fictional-couscous",
-  "version": "0.0.0-development",
+  "version": "2.0.2",
   "description": "Conventional commits coupled with semantic-release and commitlint",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "semantic-release"
+    "release:ci": "semantic-release"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@amtins",
@@ -44,7 +44,12 @@
       "master"
     ],
     "prepare": [
-      "@semantic-release/changelog",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "docs/CHANGELOG.md"
+        }
+      ],
       "@semantic-release/npm",
       [
         "@semantic-release/git",
