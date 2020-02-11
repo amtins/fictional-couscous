@@ -1,6 +1,6 @@
 {
   "name": "fictional-couscous",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Conventional commits coupled with semantic-release and commitlint",
   "main": "src/app.js",
   "scripts": {
@@ -26,7 +26,6 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/changelog": "^3.0.6",
     "@semantic-release/git": "^8.0.0",
-    "husky": "^4.0.10",
     "semantic-release": "^16.0.2"
   },
   "husky": {

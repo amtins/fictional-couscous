@@ -1,3 +1,11 @@
+## [2.0.5](https://github.com/amtins/fictional-couscous/compare/v2.0.4...v2.0.5) (2020-02-11)
+
+
+### Bug Fixes
+
+* add git pre-push hook ([e914497](https://github.com/amtins/fictional-couscous/commit/e914497c891bfebd2157908167613b15e92fe0b2))
+* uninstall husky ([5905a6c](https://github.com/amtins/fictional-couscous/commit/5905a6caf92fea6c0c40458b46dbdc3b848085d0))
+
 ## [2.0.4](https://github.com/amtins/fictional-couscous/compare/v2.0.3...v2.0.4) (2020-02-11)
 
 
