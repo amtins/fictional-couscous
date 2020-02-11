@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/amtins/fictional-couscous/compare/v2.0.3...v2.0.4) (2020-02-11)
+
+
+### Bug Fixes
+
+* skip husky install ([1fce13c](https://github.com/amtins/fictional-couscous/commit/1fce13c5b2dfdd165ba6b27c31f72200d167e3d5))
+
 ## [2.0.3](https://github.com/amtins/fictional-couscous/compare/v2.0.2...v2.0.3) (2020-02-11)
 
 
