@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/amtins/fictional-couscous/compare/v2.0.7...v2.1.0) (2020-03-19)
+
+
+### Features
+
+* skip husky ([b849c82](https://github.com/amtins/fictional-couscous/commit/b849c82c728bda471e8d05a9cb6842d734ce5b61))
+
 ## [2.0.7](https://github.com/amtins/fictional-couscous/compare/v2.0.6...v2.0.7) (2020-03-19)
 
 
