@@ -1,3 +1,11 @@
+## [2.0.6](https://github.com/amtins/fictional-couscous/compare/v2.0.5...v2.0.6) (2020-03-19)
+
+
+### Bug Fixes
+
+* husky ([a6539f9](https://github.com/amtins/fictional-couscous/commit/a6539f9010cbfbcb5cbc6cadb108b84f8a46831d))
+* remove test script ([9254776](https://github.com/amtins/fictional-couscous/commit/9254776a56fbb9bd60e4398d47763e234465c8d0))
+
 ## [2.0.5](https://github.com/amtins/fictional-couscous/compare/v2.0.4...v2.0.5) (2020-02-11)
 
 
