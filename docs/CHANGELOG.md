@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/amtins/fictional-couscous/compare/v2.0.6...v2.0.7) (2020-03-19)
+
+
+### Bug Fixes
+
+* add husky to CI ([25ab607](https://github.com/amtins/fictional-couscous/commit/25ab607bc94aae29c67565a8abb58323fbe7ef0b))
+
 ## [2.0.6](https://github.com/amtins/fictional-couscous/compare/v2.0.5...v2.0.6) (2020-03-19)
 
 
