@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/amtins/fictional-couscous/issues"
   },
-  "homepage": "https://github.com/amtins/fictional-couscous#readme",
+  "homepage": "https://github.com/amtins/fictional-couscous/blob/master/docs/README.md",
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
