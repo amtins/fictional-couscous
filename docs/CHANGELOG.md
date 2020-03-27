@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/amtins/fictional-couscous/compare/v2.1.1...v2.1.2) (2020-03-27)
+
+
+### Bug Fixes
+
+* show readme ([80bed77](https://github.com/amtins/fictional-couscous/commit/80bed7749c0ef461ad397aa93ce4208aee46c77f))
+
 ## [2.1.1](https://github.com/amtins/fictional-couscous/compare/v2.1.0...v2.1.1) (2020-03-27)
 
 
