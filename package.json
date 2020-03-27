@@ -1,6 +1,6 @@
 {
   "name": "fictional-couscous",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Conventional commits coupled with semantic-release, commitlint, and github actions.",
   "main": "src/app.js",
   "scripts": {

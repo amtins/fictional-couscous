@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/amtins/fictional-couscous/compare/v2.1.0...v2.1.1) (2020-03-27)
+
+
+### Bug Fixes
+
+* disable husky ([2bc7870](https://github.com/amtins/fictional-couscous/commit/2bc787075b953a6b099325f3bcf07480a1620acf))
+
 # [2.1.0](https://github.com/amtins/fictional-couscous/compare/v2.0.7...v2.1.0) (2020-03-19)
 
 
