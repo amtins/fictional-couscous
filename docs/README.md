@@ -81,6 +81,8 @@
           with:
             node-version: 12
         - name: Install dependencies
+          env :
+            CI: true
           run: npm ci
         - name: Release
           env:
