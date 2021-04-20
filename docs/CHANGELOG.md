@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/amtins/fictional-couscous/compare/v3.0.4...v3.1.0) (2021-04-20)
+
+
+### Features
+
+* guten tag ☀️ ([13d6caa](https://github.com/amtins/fictional-couscous/commit/13d6caaa7239955c85064cddc43e1d21c53a383d))
+
 ## [3.0.4](https://github.com/amtins/fictional-couscous/compare/v3.0.3...v3.0.4) (2021-04-20)
 
 
