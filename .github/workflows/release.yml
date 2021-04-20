@@ -26,6 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.COUSCOUS }}
+          NODE_AUTH_TOKEN: ${{ secrets.COUSCOUS }}
         run: npm run release:ci
       - name: Build GitHub Page 🔧
         run: npm run parcel:github:page
