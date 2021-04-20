@@ -1,5 +1,5 @@
 {
-  "name": "fictional-couscous",
+  "name": "@amtins/fictional-couscous",
   "version": "2.1.2",
   "description": "Conventional commits coupled with semantic-release, commitlint, and github actions.",
   "main": "src/app.js",
