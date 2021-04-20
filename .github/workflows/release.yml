@@ -25,3 +25,8 @@ jobs:
         # Either npx semantic-release or a npm script can be used to release.
         # Personally I tend to prefer an npm script in order to create an explicit link between my npm script and my workflow file
         run: npm run release:ci
+      - name: Get minor version
+        id: minorversion
+        run: |
+          PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
+          echo "::set-output name=version::${PACKAGE_VERSION%.*}"
