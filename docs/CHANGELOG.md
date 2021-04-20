@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/amtins/fictional-couscous/compare/v2.1.2...v3.0.0) (2021-04-20)
+
+
+### Features
+
+* package version ([cd9cfa2](https://github.com/amtins/fictional-couscous/commit/cd9cfa2bfa9f50322713e54a0812955f3f8b7b8c))
+
+
+### BREAKING CHANGES
+
+* extract version from package.json file
+
 ## [2.1.2](https://github.com/amtins/fictional-couscous/compare/v2.1.1...v2.1.2) (2020-03-27)
 
 
