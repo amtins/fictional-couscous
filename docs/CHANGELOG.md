@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/amtins/fictional-couscous/compare/v3.0.2...v3.0.3) (2021-04-20)
+
+
+### Bug Fixes
+
+* echo ([ddde2ac](https://github.com/amtins/fictional-couscous/commit/ddde2acebf9b9e255fbe8f5cad84b2bcf52fbf63))
+
 ## [3.0.2](https://github.com/amtins/fictional-couscous/compare/v3.0.1...v3.0.2) (2021-04-20)
 
 
