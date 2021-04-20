@@ -1,3 +1,11 @@
+## [3.0.1](https://github.com/amtins/fictional-couscous/compare/v3.0.0...v3.0.1) (2021-04-20)
+
+
+### Bug Fixes
+
+* conflicts ([9d32f26](https://github.com/amtins/fictional-couscous/commit/9d32f26cba06dcd015b0b583ea6c84b924fa412c))
+* package name ([0c0a680](https://github.com/amtins/fictional-couscous/commit/0c0a68015ec4488e52dea33b0c214bd0fe7661a8))
+
 # [3.0.0](https://github.com/amtins/fictional-couscous/compare/v2.1.2...v3.0.0) (2021-04-20)
 
 
