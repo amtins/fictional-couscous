@@ -30,3 +30,14 @@ jobs:
         run: |
           PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
           echo "${PACKAGE_VERSION}"
+  tag:
+    name: uel
+    runs-on: ubuntu-18.04
+    needs: build
+    steps:
+      - name: Get version
+        id: minorversion
+        run: |
+          PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
+          echo "${PACKAGE_VERSION}"
+          echo "Guten Tag ☀️"
