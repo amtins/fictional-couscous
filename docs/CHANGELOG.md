@@ -1,3 +1,10 @@
+# [3.4.0](https://github.com/amtins/fictional-couscous/compare/v3.3.0...v3.4.0) (2021-04-20)
+
+
+### Features
+
+* couscous merguez ([b3e2a43](https://github.com/amtins/fictional-couscous/commit/b3e2a433192e7bbe14a58921b2d1bbf3c954f61c))
+
 # [3.3.0](https://github.com/amtins/fictional-couscous/compare/v3.2.0...v3.3.0) (2021-04-20)
 
 
