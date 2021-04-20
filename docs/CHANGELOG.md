@@ -1,3 +1,15 @@
+# [3.3.0](https://github.com/amtins/fictional-couscous/compare/v3.2.0...v3.3.0) (2021-04-20)
+
+
+### Bug Fixes
+
+* the name of the game ([3e1f016](https://github.com/amtins/fictional-couscous/commit/3e1f0162f0aaa6a2d1e005de7b689899ce69ab2e))
+
+
+### Features
+
+* foot ([cb795a1](https://github.com/amtins/fictional-couscous/commit/cb795a19ebf3179be12c2b5d50b5645ba6472d1e))
+
 # [3.2.0](https://github.com/amtins/fictional-couscous/compare/v3.1.1...v3.2.0) (2021-04-20)
 
 
