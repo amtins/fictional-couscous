@@ -1,3 +1,10 @@
+## [3.4.1](https://github.com/amtins/fictional-couscous/compare/v3.4.0...v3.4.1) (2021-04-20)
+
+
+### Bug Fixes
+
+* token ([cc3ddd7](https://github.com/amtins/fictional-couscous/commit/cc3ddd797a1e157c585212019f2d822d1ca83ff9))
+
 # [3.4.0](https://github.com/amtins/fictional-couscous/compare/v3.3.0...v3.4.0) (2021-04-20)
 
 
