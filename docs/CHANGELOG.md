@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/amtins/fictional-couscous/compare/v3.0.1...v3.0.2) (2021-04-20)
+
+
+### Bug Fixes
+
+* publish config ([994841c](https://github.com/amtins/fictional-couscous/commit/994841c28500ddf4c4ba009676f1a8f6e771fbda))
+
 ## [3.0.1](https://github.com/amtins/fictional-couscous/compare/v3.0.0...v3.0.1) (2021-04-20)
 
 
