@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/amtins/fictional-couscous/compare/v3.1.1...v3.2.0) (2021-04-20)
+
+
+### Features
+
+* couscous garbit ([f949bcf](https://github.com/amtins/fictional-couscous/commit/f949bcf294978cecf26d26b3e88289a9e9c519e4))
+
 ## [3.1.1](https://github.com/amtins/fictional-couscous/compare/v3.1.0...v3.1.1) (2021-04-20)
 
 
