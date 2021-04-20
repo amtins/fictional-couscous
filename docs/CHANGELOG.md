@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/amtins/fictional-couscous/compare/v3.1.0...v3.1.1) (2021-04-20)
+
+
+### Bug Fixes
+
+* tag ([ba54c51](https://github.com/amtins/fictional-couscous/commit/ba54c51bf5da4e5fbbfbac22ccbca39375639bf1))
+
 # [3.1.0](https://github.com/amtins/fictional-couscous/compare/v3.0.4...v3.1.0) (2021-04-20)
 
 
