@@ -7,7 +7,7 @@
     "release:ci": "semantic-release"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@amtins",
+    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
   "repository": {
