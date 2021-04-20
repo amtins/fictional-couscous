@@ -1,0 +1,23 @@
+name: Guten Tag
+on:
+  push:
+    tags: 
+      - '*'
+jobs:
+  release:
+    name: Steve
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install dependencies
+        env :
+          CI: true
+        run: npm ci
+      - name: Get minor version
+        id: minorversion
+        run: echo "Guten Tag ☀️"
