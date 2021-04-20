@@ -1,8 +1,8 @@
 name: Guten Tag
 on:
   push:
-    tags: 
-      - '*'
+    release:
+      types: [created]
 jobs:
   release:
     name: Steve
