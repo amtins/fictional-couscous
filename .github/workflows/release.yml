@@ -7,37 +7,39 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-18.04
+    if: github.ref == 'refs/heads/master'
     steps:
-      - name: Checkout
+      - name: Checkout master branch
         uses: actions/checkout@v1
-      - name: Setup Node.js
+      - name: Setup Node.js environment
         uses: actions/setup-node@v1
         with:
           node-version: 12
+          always-auth: true
+          registry-url: https://npm.pkg.github.com/
+          scope: '@srgssr'
       - name: Install dependencies
         env :
           CI: true
         run: npm ci
-      - name: Release
+      - name: Release package to GitHub registry 📦
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.COUSCOUS }}
-        # Either npx semantic-release or a npm script can be used to release.
-        # Personally I tend to prefer an npm script in order to create an explicit link between my npm script and my workflow file
         run: npm run release:ci
+      - name: Build GitHub Page 🔧
+        run: npm run parcel:github:page
+      - name: Deploy GitHub Page 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%s%3N')"
       - name: Get minor version
         id: minorversion
         run: |
           PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
-          echo "${PACKAGE_VERSION}"
-  tag:
-    name: uel
-    runs-on: ubuntu-18.04
-    needs: release
-    steps:
-      - name: Get version
-        id: minorversion
-        run: |
-          PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
-          echo "${PACKAGE_VERSION}"
-          echo "Guten Tag ☀️"
+          echo "::set-output name=version::${PACKAGE_VERSION%.*}"

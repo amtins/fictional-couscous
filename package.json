@@ -4,7 +4,8 @@
   "description": "Conventional commits coupled with semantic-release, commitlint, and github actions.",
   "main": "src/app.js",
   "scripts": {
-    "release:ci": "semantic-release"
+    "release:ci": "semantic-release",
+    "parcel:github:page": "npx parcel build index.html --public-url ./"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
