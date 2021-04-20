@@ -1,8 +1,8 @@
 name: Guten Tag
 on:
   push:
-    release:
-      types: [created]
+    tags:
+      - '*'
 jobs:
   release:
     name: Steve
@@ -20,4 +20,7 @@ jobs:
         run: npm ci
       - name: Get minor version
         id: minorversion
-        run: echo "Guten Tag ☀️"
+        run: |
+          PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
+          echo "${PACKAGE_VERSION}"
+          echo "Guten Tag ☀️"

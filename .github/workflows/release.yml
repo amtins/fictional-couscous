@@ -21,7 +21,7 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.COUSCOUS }}
         # Either npx semantic-release or a npm script can be used to release.
         # Personally I tend to prefer an npm script in order to create an explicit link between my npm script and my workflow file
         run: npm run release:ci
