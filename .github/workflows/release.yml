@@ -32,9 +32,6 @@ jobs:
         run: npm run parcel:github:page
       - name: Deploy GitHub Page 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
-        run: |
-          PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
-          echo "GITHUB PAGE VERSION ${PACKAGE_VERSION}"
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
