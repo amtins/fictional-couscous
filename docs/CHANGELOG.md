@@ -1,3 +1,10 @@
+# [4.5.0](https://github.com/amtins/fictional-couscous/compare/v4.4.0...v4.5.0) (2021-04-21)
+
+
+### Features
+
+* checkout master ([3930097](https://github.com/amtins/fictional-couscous/commit/3930097874e1740ebb5d62d1fa84638332490ca3))
+
 # [4.4.0](https://github.com/amtins/fictional-couscous/compare/v4.3.0...v4.4.0) (2021-04-21)
 
 
