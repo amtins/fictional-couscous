@@ -39,20 +39,19 @@ jobs:
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%s%3N')"
-      - name: Checkout master again
-        uses: actions/checkout@v1
       - name: Get minor version
         id: minorversion
-        #git checkout origin/master
+        run: |
+          git checkout origin/master
+          PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
+          echo "::set-output name=version::${PACKAGE_VERSION%.*}"
+          echo "GET MINOR VERSION ${PACKAGE_VERSION}"
+          git describe --abbrev=0 --tags
+          git ls-remote --refs --tags | cut --delimiter='/' --fields=3 | tr '-' '~' | sort --version-sort | tail --lines=1
+      - name: Reversion
         run: |
           PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
           echo "::set-output name=version::${PACKAGE_VERSION%.*}"
           echo "GET MINOR VERSION ${PACKAGE_VERSION}"
           git describe --abbrev=0 --tags
           git ls-remote --refs --tags | cut --delimiter='/' --fields=3 | tr '-' '~' | sort --version-sort | tail --lines=1
-      - name: Push tag step      
-        uses: actions-ecosystem/action-push-tag@v1
-        if: ${{ steps.release-label.outputs.level != null }}
-        with:
-          tag: ${{ steps.bump-semver.outputs.new_version }}
-          message: '${{ steps.bump-semver.outputs.new_version }}: PR #${{ github.event.pull_request.number }} ${{ github.event.pull_request.title }}'
