@@ -1,3 +1,10 @@
+## [3.5.1](https://github.com/amtins/fictional-couscous/compare/v3.5.0...v3.5.1) (2021-04-21)
+
+
+### Bug Fixes
+
+* couscous spycies ([74d9308](https://github.com/amtins/fictional-couscous/commit/74d93085945a6d700aaef1a087e1b4c71ad8b4b1))
+
 # [3.5.0](https://github.com/amtins/fictional-couscous/compare/v3.4.2...v3.5.0) (2021-04-21)
 
 
