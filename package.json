@@ -1,6 +1,6 @@
 {
   "name": "@amtins/fictional-couscous",
-  "version": "3.5.1",
+  "version": "4.0.0",
   "description": "Conventional commits coupled with semantic-release, commitlint, and github actions.",
   "main": "src/app.js",
   "scripts": {
