@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/amtins/fictional-couscous/compare/v4.0.2...v4.1.0) (2021-04-21)
+
+
+### Features
+
+* get git tag ([3f82777](https://github.com/amtins/fictional-couscous/commit/3f82777c94a4e32a243c0819bccd0195cd3836fa))
+
 ## [4.0.2](https://github.com/amtins/fictional-couscous/compare/v4.0.1...v4.0.2) (2021-04-21)
 
 
