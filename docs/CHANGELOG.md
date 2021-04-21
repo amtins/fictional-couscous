@@ -1,3 +1,10 @@
+## [4.6.1](https://github.com/amtins/fictional-couscous/compare/v4.6.0...v4.6.1) (2021-04-21)
+
+
+### Bug Fixes
+
+* move checkout ([38d8d99](https://github.com/amtins/fictional-couscous/commit/38d8d99c4a7633b8fb2aa9f8e51a478ed04ba9c9))
+
 # [4.6.0](https://github.com/amtins/fictional-couscous/compare/v4.5.1...v4.6.0) (2021-04-21)
 
 
