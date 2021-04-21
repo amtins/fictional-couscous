@@ -1,3 +1,10 @@
+## [3.5.2](https://github.com/amtins/fictional-couscous/compare/v3.5.1...v3.5.2) (2021-04-21)
+
+
+### Bug Fixes
+
+* ignore ([684e99a](https://github.com/amtins/fictional-couscous/commit/684e99ac73ffac2c65d06f9f821f4efc2acc654f))
+
 ## [3.5.1](https://github.com/amtins/fictional-couscous/compare/v3.5.0...v3.5.1) (2021-04-21)
 
 
