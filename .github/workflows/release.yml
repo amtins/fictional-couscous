@@ -51,5 +51,6 @@ jobs:
           npm view '@amtins/fictional-couscous' versions --json > dist/versions.json
           PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
           echo "GITHUB PAGE VERSION ${PACKAGE_VERSION}"
+          git describe --abbrev=0 --tags
         env:
           NODE_AUTH_TOKEN: ${{ secrets.COUSCOUS }}
