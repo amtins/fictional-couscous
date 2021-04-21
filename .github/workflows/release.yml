@@ -45,6 +45,7 @@ jobs:
           PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
           echo "::set-output name=version::${PACKAGE_VERSION%.*}"
           echo "GET MINOR VERSION ${PACKAGE_VERSION}"
+          git checkout origin/master
           git describe --abbrev=0 --tags
           git ls-remote --refs --tags | cut --delimiter='/' --fields=3 | tr '-' '~' | sort --version-sort | tail --lines=1
       - name: Push tag step      
