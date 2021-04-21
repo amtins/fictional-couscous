@@ -1,3 +1,15 @@
+# [3.5.0](https://github.com/amtins/fictional-couscous/compare/v3.4.2...v3.5.0) (2021-04-21)
+
+
+### Bug Fixes
+
+* run ([202f353](https://github.com/amtins/fictional-couscous/commit/202f3539dca70810465fed12501c9517f1abd54e))
+
+
+### Features
+
+* get versions json ([ec5fc92](https://github.com/amtins/fictional-couscous/commit/ec5fc926ca1096e5da4e54b6dc4d74ad9715f717))
+
 ## [3.4.2](https://github.com/amtins/fictional-couscous/compare/v3.4.1...v3.4.2) (2021-04-21)
 
 
