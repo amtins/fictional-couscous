@@ -46,12 +46,18 @@ jobs:
           echo "::set-output name=version::${PACKAGE_VERSION%.*}"
           echo "GET MINOR VERSION ${PACKAGE_VERSION}"
           git describe --abbrev=0 --tags
-      - name: List versions
-        id: versionslist
-        run: | 
-          npm view '@amtins/fictional-couscous' versions --json > dist/versions.json
-          PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
-          echo "GITHUB PAGE VERSION ${PACKAGE_VERSION}"
-          git describe --abbrev=0 --tags
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.COUSCOUS }}
+      - name: Push tag step      
+        uses: actions-ecosystem/action-push-tag@v1
+          if: ${{ steps.release-label.outputs.level != null }}
+          with:
+            tag: ${{ steps.bump-semver.outputs.new_version }}
+            message: '${{ steps.bump-semver.outputs.new_version }}: PR #${{ github.event.pull_request.number }} ${{ github.event.pull_request.title }}'
+      # - name: List versions
+      #   id: versionslist
+      #   run: | 
+      #     npm view '@amtins/fictional-couscous' versions --json > dist/versions.json
+      #     PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
+      #     echo "GITHUB PAGE VERSION ${PACKAGE_VERSION}"
+      #     git describe --abbrev=0 --tags
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.COUSCOUS }}
