@@ -1,3 +1,15 @@
+# [4.3.0](https://github.com/amtins/fictional-couscous/compare/v4.2.0...v4.3.0) (2021-04-21)
+
+
+### Bug Fixes
+
+* push tag log indentation ([cedb18f](https://github.com/amtins/fictional-couscous/commit/cedb18fcc2172a17d0b53050b52a6254c28ca83c))
+
+
+### Features
+
+* push tag log ([5359d89](https://github.com/amtins/fictional-couscous/commit/5359d89fc4649405395ab0c9758b5f23fd405476))
+
 # [4.2.0](https://github.com/amtins/fictional-couscous/compare/v4.1.0...v4.2.0) (2021-04-21)
 
 
