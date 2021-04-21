@@ -1,3 +1,10 @@
+# [4.4.0](https://github.com/amtins/fictional-couscous/compare/v4.3.0...v4.4.0) (2021-04-21)
+
+
+### Features
+
+* last remote tag ([3bce40b](https://github.com/amtins/fictional-couscous/commit/3bce40bdcc0f9fb39b12eb83ed43cb9ff96f0f24))
+
 # [4.3.0](https://github.com/amtins/fictional-couscous/compare/v4.2.0...v4.3.0) (2021-04-21)
 
 
