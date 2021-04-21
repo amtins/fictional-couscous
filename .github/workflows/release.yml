@@ -52,4 +52,4 @@ jobs:
           PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
           echo "GITHUB PAGE VERSION ${PACKAGE_VERSION}"
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.COUSCOUS }}
