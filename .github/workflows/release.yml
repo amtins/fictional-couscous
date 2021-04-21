@@ -36,13 +36,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist
+      - name: Checkout master again
+        uses: actions/checkout@v1
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%s%3N')"
       - name: Get minor version
         id: minorversion
+        #git checkout origin/master
         run: |
-          git checkout origin/master
           PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[",]//g' | tr -d '[[:space:]]')
           echo "::set-output name=version::${PACKAGE_VERSION%.*}"
           echo "GET MINOR VERSION ${PACKAGE_VERSION}"
