@@ -46,6 +46,7 @@ jobs:
           echo "::set-output name=version::${PACKAGE_VERSION%.*}"
           echo "GET MINOR VERSION ${PACKAGE_VERSION}"
           git describe --abbrev=0 --tags
+          git ls-remote --refs --tags | cut --delimiter='/' --fields=3 | tr '-' '~' | sort --version-sort | tail --lines=1
       - name: Push tag step      
         uses: actions-ecosystem/action-push-tag@v1
         if: ${{ steps.release-label.outputs.level != null }}
